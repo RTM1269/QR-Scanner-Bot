@@ -1,3 +1,8 @@
-python-telegram-bot
-pillow
-pyzbar
+base45==0.4.3
+cbor2==5.4.2.post1
+cose==0.9.dev8
+Pillow==9.0.1
+python_telegram_bot==13.11
+pyzbar==0.1.8
+requests==2.27.1
+telegram==0.0.1
