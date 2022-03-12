@@ -28,14 +28,6 @@ import base45
 import cbor2
 from cose.messages import CoseMessage
 
-#MongoDB
-import pymongo
-
-
-client = pymongo.MongoClient("mongodb+srv://userApp:ncqG7aQ5xUn9z5xY@trabajopython.1sosg.mongodb.net/TrabajoPython?retryWrites=true&w=majority", server_api=ServerApi('1'))
-db = client.test
-
-
 TOKEN = "5130549589:AAHSV6Hhp7SM68DYI47TQSu7qZ9h0U76dCE"
 
 def decode_qr(update: Update, context: CallbackContext):
